@@ -4,7 +4,7 @@
 	"description": "A simple 11ty starter project with complete TailwindCSS integration",
 	"main": "index.js",
 	"scripts": {
-		"start": "cross-env NODE_ENV=production ELEVENTY_ENV=production npm-run-all clean -p prod:* && echo $ELEVENTY_ENV",
+		"start": "cross-env NODE_ENV=production ELEVENTY_ENV=production npm-run-all clean -p prod:* && PORT=80 eleventy --quiet",
 		"prod:11ty": "eleventy --quiet",
 		"prod:css": "npx tailwindcss -i src/style.css -o _site/style.min.css --minify",
 		"clean": "rimraf _site",
