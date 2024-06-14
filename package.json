@@ -13,7 +13,7 @@
 	  },
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/MarkBuskbjerg/ta11y.git"
+		"url": "git+https://github.com/Val-lowtech/11ty-test.git"
 	},
 	"keywords": [
 		"11ty",
