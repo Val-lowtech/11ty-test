@@ -4,7 +4,7 @@
 	"description": "A simple 11ty starter project with complete TailwindCSS integration",
 	"main": "index.js",
 	"scripts": {
-		"prod": "cross-env NODE_ENV=production ELEVENTY_ENV=production npm-run-all clean -p prod:* && echo $ELEVENTY_ENV",
+		"start": "cross-env NODE_ENV=production ELEVENTY_ENV=production npm-run-all clean -p prod:* && echo $ELEVENTY_ENV",
 		"prod:11ty": "eleventy --quiet",
 		"prod:css": "npx tailwindcss -i src/style.css -o _site/style.min.css --minify",
 		"clean": "rimraf _site",
@@ -26,9 +26,9 @@
 	"author": "Mark Buskbjerg",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/MarkBuskbjerg/ta11y/issues"
+		"url": "https://github.com/Val-lowtech/11ty-test.git/issues"
 	},
-	"homepage": "https://github.com/MarkBuskbjerg/ta11y#readme",
+	"homepage": "https://github.com/Val-lowtech/11ty-test.git",
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.1",
 		"@11ty/eleventy-img": "^3.1.1",
